@@ -17,7 +17,7 @@ int main() {
   eng2.nome = "Daniela Targaryen";
   eng2.salarioHora = 30;
   eng2.projetos = 1; 
-  std::cout << "Nome: " << eng2.nome << std::endl;
+  cout << "Nome: " << eng2.nome << std::endl;
   std::cout << "Salario Mes: " << eng2.pagamentoMes(8) << std::endl;
   std::cout << "Projetos: " << eng2.projetos << std::endl;  
   std::cout << std::endl;
